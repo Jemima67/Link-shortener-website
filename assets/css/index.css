@@ -1,0 +1,273 @@
+*body{
+    margin: 0;
+    color: black;
+}
+
+.heada{
+     /* border: 1px solid black; */
+     background: white;
+     display: flex;
+     gap: 50%;
+}
+.head ul{
+    margin: 15px;
+    display: flex;
+    gap: 15px;
+}
+.head ul a li{
+    list-style: none;
+    color: black;
+}
+.head ul a{
+    text-decoration: none;
+}
+.bell ul{
+    margin: 15px;
+    display: flex;
+    gap: 25px; 
+}
+.bell ul a li{
+    list-style: none;
+    color: black;
+}
+.bell ul a {
+    text-decoration: none;
+}
+.landing{
+    margin-left: 45px;
+    display: flex;
+}
+.img{
+    /* border: 1px solid black; */
+    padding: 100px;
+
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    /* border: 1px solid black; */
+    padding: 100px;
+}
+.text h1{
+    /* border: 1px solid black; */
+    font-size: 60px;
+    font-family: [Poppins](https://fonts.google.com/specimen/Poppins);
+}
+.text h5{
+    color: #bbb;
+    /* border: 1px solid black; */
+    font-weight:200px;
+    font-size: 20px;
+}
+.text a{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    width: 50%;
+    background-color:hsl(180, 66%, 49%);
+}
+.break{
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    margin-top: 40px;
+    width: 700px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    background-color:hsl(255, 11%, 22%) ;
+    gap: 7px;
+}
+.break .fear{
+    border-style: none;
+    border-radius: 8px;
+    width: 400px;
+}
+.break .brave{
+    width: 100px;
+    background-color:hsl(180, 66%, 49%) ;
+    border-style: none;
+    border-radius: 8px;
+}
+.text1{
+    /* border: 1px solid black; */
+    margin-left: 30%;
+    width: 800px;
+    height: 170px;
+    margin-top: 100px;
+    padding: 40px;
+    margin-right: 600px;
+}
+.text1 h5{
+    /* border: 1px solid black; */
+    color: #bbb;
+    margin-left: -10%;
+    width: 73%;
+}
+ span{
+    /* border: 1px solid black; */
+    margin-left:17% ;
+}
+.blocks{
+    margin-top: 8%;
+    margin-left: 11%;
+    margin-bottom: 10%;
+    gap: 25px;
+    /* justify-content: space-around; */
+    display: flex;
+   
+}
+.block1{
+    /* border: 1px solid black; */
+    box-shadow: .5px .5px 1px .5px grey, .5px .5px 1px .5px grey, .5px .5px 1px .5px grey ;
+    width: 300px;
+    padding: 15px;
+    border-radius: 3px;
+    
+    
+}
+.block2{
+    
+    box-shadow: .5px .5px 1px .5px grey, .5px .5px 1px .5px grey, .5px .5px 1px .5px grey ;
+    width: 300px;
+    padding: 15px;
+    border-radius: 3px;
+}
+.block3{
+    box-shadow: .5px .5px 1px .5px grey, .5px .5px 1px .5px grey, .5px .5px 1px .5px grey ;
+    width: 300px;
+    padding: 15px;
+    border-radius: 3px;
+}
+.mini-block{
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    margin-top: -13%;
+    background-color:hsl(260, 8%, 14%) ;
+
+}
+/* .circle{
+    border: 1px solid black;
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    margin-top: -9%;
+    background-image: url("../images/icon-brand-recognition.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+.block1-text h2{
+    /* border: 1px solid black; */
+    width: 280px;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 10px;
+font-weight: 600;}
+.block1-text h6{
+    /* border: 1px solid black; */
+    width: 280px;
+    font-size: larger;
+    color: grey;
+    margin-top: 20px;
+
+}
+.blank{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 90px;
+    height: 150px;
+    background-color:hsl(257, 27%, 26%) ;
+    color: white;
+    margin-bottom: -90px;
+  
+}
+.bolder a{
+    border-radius: 15px;
+    text-decoration: none;
+    /* padding: 3px; */
+    color: white;
+    width: 170px;
+    height: 47px;
+    padding:5px ;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 75px;
+    background-color:hsl(180, 66%, 49%);
+    display: flex;
+    flex-direction: column;
+
+}
+.bolder{
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 450px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    border: 1px solid black;
+    width: 900ppx;
+    height: 300px;
+    background-color: hsl(260, 8%, 14%);
+    gap: 80px;
+    
+    
+}
+.footer h3{
+    color: white;
+    margin-top: 30px;
+
+}
+.footer-logo{
+    width: 200px;
+    height: 80px;
+    margin: 30px;
+    color: white;
+}
+.features a{
+    text-decoration: none;
+    color: white;
+}
+.features a li{
+    list-style: none;
+    margin-top: 10px;
+}
+.company a{
+    text-decoration: none;
+    color: white;
+}
+.company a li{
+    list-style: none;
+    margin-top: 10px;
+
+}
+.resources a{
+    text-decoration: none;
+    color: white;
+}
+.resources a li{
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    
+}
+.icons{
+    display: flex;
+    gap: 16px;
+    width: 400px;
+    height: 35px;
+    margin: 50px;
+}
+.icons img{
+    gap: 15px;
+    justify-content: space-between;
+}
